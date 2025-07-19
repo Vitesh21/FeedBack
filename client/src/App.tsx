@@ -11,11 +11,13 @@ import Dashboard from "@/pages/dashboard";
 import FormBuilder from "@/pages/form-builder";
 import PublicForm from "@/pages/public-form";
 import Responses from "@/pages/responses";
+import Statistics from "@/pages/statistics";
 
 function Router() {
   return (
     <Switch>
       <ProtectedRoute path="/" component={Dashboard} />
+      <ProtectedRoute path="/statistics" component={Statistics} />
       <ProtectedRoute path="/forms/new" component={FormBuilder} />
       <ProtectedRoute path="/forms/:id/edit" component={FormBuilder} />
       <ProtectedRoute path="/forms/:id/responses" component={Responses} />

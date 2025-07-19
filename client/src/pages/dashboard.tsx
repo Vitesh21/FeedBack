@@ -82,6 +82,10 @@ export default function Dashboard() {
             </div>
             
             <div className="flex items-center space-x-4">
+              <Button variant="outline" onClick={() => setLocation("/statistics")}>
+                <BarChart className="mr-2 h-4 w-4" />
+                Statistics
+              </Button>
               <Button onClick={() => setLocation("/forms/new")} className="bg-primary text-white">
                 <Plus className="mr-2 h-4 w-4" />
                 New Form
