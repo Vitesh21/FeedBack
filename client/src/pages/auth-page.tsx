@@ -45,24 +45,7 @@ export default function AuthPage() {
             <p className="text-xl text-slate-600 mb-6">
               Collect and manage customer feedback effortlessly
             </p>
-            <div className="space-y-4 text-slate-600">
-              <div className="flex items-center">
-                <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                <span>Create custom feedback forms in minutes</span>
-              </div>
-              <div className="flex items-center">
-                <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                <span>Share public forms without registration</span>
-              </div>
-              <div className="flex items-center">
-                <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                <span>Analyze responses with detailed insights</span>
-              </div>
-              <div className="flex items-center">
-                <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                <span>Export data for further analysis</span>
-              </div>
-            </div>
+
           </div>
         </div>
 
