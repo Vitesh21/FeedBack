@@ -2,7 +2,11 @@
 
 ## Overview
 
-FeedbackFlow is a full-stack web application that allows users to create, manage, and collect responses from custom forms. The application provides a form builder interface, response collection, and analytics dashboard. It's built with modern web technologies focusing on user experience and data management.
+FeedbackFlow is a complete feedback collection platform that allows businesses to create custom forms and collect customer feedback effortlessly. The application provides a comprehensive form builder interface, public form submission, response analytics, and data export capabilities. It's built with modern web technologies focusing on user experience and data management.
+
+## Recent Changes
+
+- **January 19, 2025**: Added comprehensive README.md file with complete setup instructions, feature descriptions, API documentation, and usage guide for both admins and customers
 
 ## User Preferences
 
